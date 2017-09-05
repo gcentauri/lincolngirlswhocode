@@ -5,6 +5,7 @@ resources, notes, ideas, code for the lincoln girls who code club!
 This is our Github space, lets create this together!  A few notes on
 markup:
 
+```Making words **bold** or *italic* lets you emphasize stuff.```
 Making words **bold** or *italic* lets you emphasize stuff.
 
 Links let you go to other websites like [where DrRacket comes from.](http://racket-lang.org)
