@@ -30,6 +30,8 @@ A picture of some cat from the internet:
 
 There's a lot more you can do with MarkDown, [github even tells you about it](https://guides.github.com/features/mastering-markdown/).
 
+p.s. I guess it [supports emoji](https://gist.github.com/rxaviers/7360908) :stuck_out_tongue:
+
 ## What Are We Doing Here?
 
 Learning, teaching, coding.
@@ -51,4 +53,4 @@ writing code that we'd like other humans to read, so they can learn and code and
 # Personal spaces
 make links to sub-folders to keep your own stuff, but publish links here?
 
-[grant's home file](home.org)
+[grant's home file](grant/home.org)
