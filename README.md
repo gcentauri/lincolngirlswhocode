@@ -9,9 +9,9 @@ markup:
 
 Making words **bold** or *italic* lets you emphasize stuff.
 
-```Links let you go to other websites like [where DrRacket comes from.](http://racket-lang.org)```
+```Links let you go to other websites like [where Racket comes from.](http://racket-lang.org)```
 
-Links let you go to other websites like [where DrRacket comes from.](http://racket-lang.org)
+Links let you go to other websites like [where Racket comes from.](http://racket-lang.org)
 
 A numbered list of why this club is aweseome:
 
