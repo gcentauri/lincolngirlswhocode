@@ -1,0 +1,16 @@
+* Home
+
+I like the idea of having a home base in a project.  I don't know the best way
+to really use it, but regardless, I like it.  I'm writing this in org mode
+because it allows me the possibilty of writing literate code.  What does this
+mean?  It means I can write a program like this:
+
+#+BEGIN_SRC racket :tangle hello_world.rkt
+;; this will be a comment in the racket file
+;; in racket, we can simply write a String, this is a complete program!
+"hello world!"
+#+END_SRC
+
+And then I can use Emacs to 'tangle' the code file out of this document.
+
+You should see a file hello_world.rkt in this repo.
