@@ -3,7 +3,18 @@ A (fedora?) custom live gnu/linux operating system for teachers and learners (co
 
 ## Software Packages
 ### Desktop Environment(s)
+- mint
+- sugar
+- gnome
 ### Programming
-racket
-python3
-scratch
+#### languages
+- racket
+- python3
+- scratch
+#### IDEs
+- DrRacket
+- Idle
+### Editors
+- sublime
+- emacs
+- atom
