@@ -13,4 +13,4 @@ mean?  It means I can write a program like this:
 
 And then I can use Emacs to 'tangle' the code file out of this document.
 
-You should see a file hello_world.rkt in this repo.
+You should see a file [[hello_world.rkt]] in this repo.
