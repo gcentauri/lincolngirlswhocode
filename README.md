@@ -38,7 +38,7 @@ Its all the same thing, really.
 
 I would like this to be a sort of "monorepo" of "literate programs".  
 Thats just fancy words to say this place is like a big pile of files 
-we can all share to write code with, andfor, each other.  
+we can all share to write code with, and *for*, each other.  
 
 This means that people from all skill levels can collaborate,
 some of the work here might be from adult programmers, some from kid students,
