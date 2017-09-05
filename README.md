@@ -26,7 +26,7 @@ a different kind of list doesnt make numbers:
   
 A picture of some cat from the internet:
 
-![picture of some cat from the internet](https://goo.gl/images/Ar5ilw)
+![picture of some cat from the internet](https://pbs.twimg.com/profile_images/848395594590814208/_TtPuzHs.jpg)
 
 There's a lot more you can do with MarkDown, [github even tells you about it](https://guides.github.com/features/mastering-markdown/).
 
