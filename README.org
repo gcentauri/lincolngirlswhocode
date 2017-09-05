@@ -1,2 +1,19 @@
-* lincolngirlswhocode
+* Lincoln Girls Who Code
 resources, notes, ideas, code for the lincoln girls who code club!
+
+*** Welcome!
+This is our Github space, lets create this together!  A few notes on
+markup:
+
+* Top level headline
+** Second level
+*** 3rd level
+    Write stuff here!
+*** 3rd level
+    more text
+     
+* Another top level headline
+
+You can make words *bold*, /italic/, _underlined_, =verbatim= andd ~code~, 
+and, if you must, ‘+strike-through+’. Text in the code and verbatim string 
+is not processed for Org mode specific syntax, it is exported verbatim.
