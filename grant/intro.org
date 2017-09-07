@@ -1,0 +1,82 @@
+* Code - What is it?
+You probably wouldn't be here if you weren't curious.
+
+I'd like to know:
+
+*** What do you think of when you hear the word *code*?
+*** What do you imagine when you think of *coding*?
+
+* Lets Have a Conversation
+
+A conversation could be thought of as a sort of "coding", right?
+
+We use words to tell each other /something/... but what is that something?
+Usually we know something new after a conversation, or at least we have 
+experienced some feelings, maybe laughed, felt confused, or maybe we don't
+know something, but in fact have a new question.
+
+So we transform words into meaning, into human experience, or learning.
+
+Coding, or programming, a computer is also about transforming one sort of
+thing into another form.  But computers don't really understand words, or...
+at least they didn't until humans taught them how, with code.  For us to 
+teach the computer we invent computer languages, because our languages are too
+complicated for it to understand.
+
+** Introducing Definitions / Questions
+
+So in order for us to learn together, we need to use our language, words,
+to understand new things.  
+
+*** What happens if we don't understand a word?
+We are going to be *defining* lots of things in this club, for each other
+and for the computers.  Any time there's a new word or something you don't 
+know, let's get together as a group and help define it!  Words are building
+blocks of how we program understanding for ourselves.
+
+We're going to collect defintions in this club (definitions board)
+
+**** how do we make a definition as a group?
+
+*** What happens if we don't understand, like, a whole paragraph?
+Ask questions.  There will be a lot that is confusing.  Learning to program,
+for me, was a long time of being confused and asking questions.  If you don't
+understand a concept, the best thing is to work on asking good questions about
+it. We might not know the answer right away, so we can collect questions too.
+
+* Four Concepts 
+** Functions / Definitions
+*** What is a function? 
+First let's talk about the word... (/define function/)
+
+*** Our first definition of a computer function
+
+A *function* is a relationship between a set of *inputs* and *outputs*
+
+Lets say it another way...
+
+A function is like a pipe where you put something in one end and something
+comes out the other end.
+
+**** Demonstration / Activity
+  - cards with things like "times 1" or "plus 10" on them 
+  - cards with numbers
+  - have someone be the "function" and other passes a number to them,
+    they return a number back.
+  - could do this with other non-numeric examples, reverse a word etc.
+
+*** Defining functions
+
+***** Note
+Hmm... we cant actually define a function without a variable.  I'd really
+like to figure out how to get from "anything times 1 equals itself" to the
+function defintion f(x) = x (the abstration of the identity function)  In
+programming thats like a function that whatever data goes in comes out 
+exactly the same... like:
+
+#+BEGIN_SRC racket
+(define (identity data)
+  data)
+#+END_SRC
+
+** Variables / Data

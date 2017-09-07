@@ -1,5 +1,5 @@
 * Home
-
+ 
 I like the idea of having a home base in a project.  I don't know the best way
 to really use it, but regardless, I like it.  I'm writing this in org mode
 because it allows me the possibilty of writing literate code.  What does this
@@ -14,3 +14,36 @@ mean?  It means I can write a program like this:
 And then I can use Emacs to 'tangle' the code file out of this document.
 
 You should see a file hello_world.rkt in this repo.
+
+One great thing about org files, is that github can translate them just like
+markdown files?
+
+** Navigation
+  - [[./intro.org][First Club Intro Outline]]
+
+* Working Ideas
+
+This area will constantly change and serve as a space to just make unfiled notes
+
+** Image test
+#+BEGIN_SRC racket :tangle image-test.rkt
+  #lang racket
+  (require 2htdp/image)
+
+  (define (block color)
+    (square 50 'solid color))
+
+  (define (ball color)
+    (circle 25 'solid color))
+
+  (define (tri color)
+    (triangle 50 'solid color))
+
+  (define rainbow (list 'red 'orange 'yellow 'green 'blue 'indigo 'violet))
+
+  (define (chain-of-shapes shape list-of-colors)
+    (cond
+      [(empty? list-of-colors) empty-image]
+      [else (beside (shape (first list-of-colors))
+                    (chain-of-shapes shape (rest list-of-colors)))]))
+#+END_SRC
