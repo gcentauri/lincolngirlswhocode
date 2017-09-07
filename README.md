@@ -5,11 +5,19 @@ resources, notes, ideas, code for the lincoln girls who code club!
 This is our Github space, lets create this together!  A few notes on
 markup:
 
+```Making words **bold** or *italic* lets you emphasize stuff.```
+
 Making words **bold** or *italic* lets you emphasize stuff.
 
-Links let you go to other websites like [where DrRacket comes from.](http://racket-lang.org)
+```Links let you go to other websites like [where Racket comes from.](http://racket-lang.org)```
+
+Links let you go to other websites like [where Racket comes from.](http://racket-lang.org)
 
 A numbered list of why this club is aweseome:
+
+    1. because girls are awesome
+    2. coding is like being a wizard?(something better)
+    3. making stuff ourselves and sharing knowledge is radical!
 
 1. because girls are awesome
 2. coding is like being a wizard?(something better)
@@ -19,18 +27,25 @@ thats actually four things, but...
 
 a different kind of list doesnt make numbers:
 
+    * lists seem to be everywhere
+    * lists are good
+    * lists are life
+      * really?
+
 * lists seem to be everywhere
 * lists are good
 * lists are life
   * really?
-  
+
 A picture of some cat from the internet:
+
+    ![picture of some cat from the internet](https://pbs.twimg.com/profile_images/848395594590814208/_TtPuzHs.jpg)
 
 ![picture of some cat from the internet](https://pbs.twimg.com/profile_images/848395594590814208/_TtPuzHs.jpg)
 
 There's a lot more you can do with MarkDown, [github even tells you about it](https://guides.github.com/features/mastering-markdown/).
 
-p.s. I guess it [supports emoji](https://gist.github.com/rxaviers/7360908) :stuck_out_tongue:
+p.s. I guess it [supports emoji](https://gist.github.com/rxaviers/7360908) ```:stuck_out_tongue:``` :stuck_out_tongue:
 
 ## What Are We Doing Here?
 
