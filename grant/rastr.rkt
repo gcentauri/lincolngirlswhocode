@@ -9,7 +9,17 @@
 
 (define-struct vel [deltax deltay])
 
+(define (add-velocity posn velocity)
+  (make-posn (+ (posn-x posn) (vel-deltax velocity))
+             (+ (posn-y posn) (vel-deltay velocity))))
+
 (define player-ship (make-ship (make-posn 250 400) (make-vel 0 0)))
+
+(define (ship-x s)
+  (posn-x (ship-location s)))
+
+(define (ship-y s)
+  (posn-y (ship-location s)))
 
 (define (draw-ship s)
   (triangle 20 'outline 'white))
@@ -17,13 +27,10 @@
 (define (accelerate-ship s)
   (make-ship (ship-location s)
              (make-vel (vel-deltax (ship-velocity s))
-                       (sub1 (vel-deltay (ship-velocity s))))))
+                       (- (vel-deltay (ship-velocity s)) 0.3))))
 
 (define (move-ship s)
-  (make-ship (make-posn (+ (posn-x (ship-location s))
-                           (vel-deltax (ship-velocity s)))
-                        (+ (posn-y (ship-location s))
-                           (vel-deltay (ship-velocity s))))
+  (make-ship (add-velocity (ship-location s) (ship-velocity s))
              (ship-velocity s)))
 
 (define (drive-ship s)
@@ -40,8 +47,8 @@
 
 (define (draw-rastr g)
   (place-image (draw-ship (game-ship g))
-               (posn-x (ship-location (game-ship g)))
-               (posn-y (ship-location (game-ship g)))
+               (ship-x (game-ship g))
+               (ship-y (game-ship g))
                (game-canvas g)))
 
 (big-bang rastr
